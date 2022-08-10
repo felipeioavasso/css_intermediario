@@ -1,0 +1,40 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../aula056_barraHorizontal/imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+    border: 1px solid red;
+}
+
+ul li {
+    float: left;
+}
+
+ul a{
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    color: #fff;
+    background: url(../aula056_barraHorizontal/imagens/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a{
+    color: #085662;
+    background: #44cade;
+}

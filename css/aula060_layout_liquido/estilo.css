@@ -1,0 +1,81 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 100%;            /* porcentagem para layout liquido */
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+    /* max-width: 960px; */
+}
+
+#marca {
+    width: 100%;
+    height: 100px; 
+    background: #9E9E9E; 
+    text-align: center; 
+    line-height: 100px;
+}
+
+#conteudo {
+    width: 75%; 
+    float: right; 
+}
+
+#conteudo-principal {
+    width: 64%;
+    float: left;
+}
+
+#conteudo-secundario h1
+#conteudo-secundario h2
+#conteudo-secundario h3
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#conteudo-secundario {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 30%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#navegacao {
+    width: 23%; 
+    float: left;
+    background: #d1d1d1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navegacao ul {
+    text-align: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+#navegacao ul a{
+    list-style: none;
+    padding: 25px;
+    height: 40px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+#rodape {
+    border: 1px solid red;
+    clear: both;                   /* limpar a propriedade flutuante */
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+#barraLateral a:hover, .selecionado a{
+    color: greenyellow;
+    background-color: #9E9E9E;
+}
